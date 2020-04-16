@@ -1,0 +1,8 @@
+<form method="POST" action="/asp/mailto.asp">	(1)	メール送信フォームの始まりです。メール送信プログラムの場所を定義しています
+宛先<input type="text" name="toaddr" size="50"><br>	(2)	宛先の入力フィールドを定義しています
+送信元<input type="text" name="fromaddr" size="60"><br>	(3)	送信元の入力フィールドを定義しています
+題名<input type="text" name="subject" size="78"><br>	(4)	題名の入力フィールドを定義しています
+本文<textarea rows="4" name="body" cols="56"></textarea><br>	(5)	メール本文の入力フィールドを定義しています
+<input type="submit" value="送信する">	(6)	送信ボタンを定義しています
+<input type="hidden" name="nextpage" value="NEXTURL">	(7)	メール送信後、表示したいページを定義しています（省略できます）
+</form>
